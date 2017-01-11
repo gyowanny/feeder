@@ -7,7 +7,8 @@ import ratpack.server.RatpackServer;
 import ratpack.server.ServerConfig;
 import uk.co.gyo.feeder.handler.RssHandler;
 import uk.co.gyo.feeder.handler.StatusHandler;
-import uk.co.gyo.feeder.handler.TwitterHandler;
+import uk.co.gyo.feeder.handler.TwitterSearchHandler;
+import uk.co.gyo.feeder.handler.TwitterTimelineHandler;
 import uk.co.gyo.feeder.module.FeederModule;
 
 /*
@@ -22,8 +23,11 @@ public class Main {
                 .registry(Guice.registry(b -> b.module(FeederModule.class)))
             .handlers(chain -> {
                 chain.get("private/status", StatusHandler.class);
+
                 chain.post("rss", RssHandler.class);
-                chain.get("twitter/:user", TwitterHandler.class);
+
+                chain.get("twitter/:user", TwitterTimelineHandler.class);
+                chain.get("twitter/search/:query", TwitterSearchHandler.class);
             })
         );
     }

@@ -14,13 +14,13 @@ import java.util.concurrent.CountDownLatch;
 
 import static ratpack.jackson.Jackson.json;
 
-public class TwitterHandler implements Handler {
-    private static final Logger log = LoggerFactory.getLogger(TwitterHandler.class);
+public class TwitterTimelineHandler implements Handler {
+    private static final Logger log = LoggerFactory.getLogger(TwitterTimelineHandler.class);
 
     private final Twitter twitter;
 
     @Inject
-    public TwitterHandler(Twitter twitter) {
+    public TwitterTimelineHandler(Twitter twitter) {
         this.twitter = twitter;
     }
 

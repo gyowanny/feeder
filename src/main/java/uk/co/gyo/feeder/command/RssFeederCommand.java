@@ -30,7 +30,7 @@ public class RssFeederCommand extends HystrixObservableCommand<SyndFeed> {
     @Override
     protected Observable<SyndFeed> construct() {
         return Observable.create( subscriber -> {
-                    try {
+                        try {
                         subscriber.onNext(feeder.loadFeedFor(url));
                         subscriber.onCompleted();
                     } catch (Exception e) {
