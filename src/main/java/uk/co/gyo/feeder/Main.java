@@ -10,7 +10,6 @@ import uk.co.gyo.feeder.handler.StatusHandler;
 import uk.co.gyo.feeder.module.FeederModule;
 
 /*
- * TODO: RSS Feeder
  * TODO: Twitter Feeder
  */
 public class Main {

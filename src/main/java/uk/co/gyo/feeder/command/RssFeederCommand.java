@@ -12,7 +12,6 @@ public class RssFeederCommand extends HystrixObservableCommand<SyndFeed> {
     private static final Logger log = LoggerFactory.getLogger(RssFeederCommand.class);
 
     private final RomeFeeder feeder;
-
     private String url;
 
     public RssFeederCommand() {

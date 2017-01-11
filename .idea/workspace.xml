@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="866fffc6-b9bc-4669-a6d7-2862085f307b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/handler/RssHandler.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/handler/RssHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/handler/StatusHandler.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/handler/StatusHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/Main.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/command/RssFeederCommand.java" afterPath="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/command/RssFeederCommand.java" />
     </list>
     <ignored path="feeder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RomeFeeder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/rss/RomeFeeder.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,8 +38,8 @@
       <file leaf-file-name="RssFeederCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/command/RssFeederCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="157">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="165">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatusHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StatusHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/handler/StatusHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
@@ -149,13 +138,13 @@
         <option value="$MAVEN_REPOSITORY$/io/ratpack/ratpack-core/1.4.4/ratpack-core-1.4.4.jar!/ratpack/server/RatpackServer.class" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/command/RomeFeederCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/rss/RomeFeeder.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/module/FeederModule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/command/RssFeederCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/handler/RssHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/handler/StatusHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/command/RssFeederCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/Main.java" />
       </list>
     </option>
   </component>
@@ -1103,12 +1092,12 @@
       <option name="presentableId" value="Default" />
       <updated>1482353485632</updated>
       <workItem from="1482353486982" duration="23626000" />
-      <workItem from="1483302271678" duration="2206000" />
+      <workItem from="1483302271678" duration="2660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25832000" />
+    <option name="totallyTimeSpent" value="26286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -1155,7 +1144,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/Main.java</url>
-          <line>15</line>
+          <line>14</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -1258,24 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
@@ -1347,16 +1318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/command/RssFeederCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/handler/RssHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1369,6 +1330,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/command/RssFeederCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.5/jackson-datatype-jdk8-2.7.5.jar!/com/fasterxml/jackson/datatype/jdk8/Jdk8Serializers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.5/jackson-datatype-jdk8-2.7.5.jar!/com/fasterxml/jackson/datatype/jdk8/Jdk8Module.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/co/gyo/feeder/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
