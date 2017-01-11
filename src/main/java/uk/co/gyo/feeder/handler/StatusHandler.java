@@ -9,9 +9,8 @@ public class StatusHandler implements Handler {
 
     @Override
     public void handle(Context ctx) throws Exception {
-        StatusResponse status = new StatusResponse("OK");
         ctx.getResponse().status(200);
-        ctx.render(json(status));
+        ctx.render(json(new StatusResponse("OK")));
     }
 
     private static class StatusResponse {

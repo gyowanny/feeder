@@ -43,7 +43,6 @@ public class RssHandler implements Handler {
                                 ctx.render(json(new Error(error.getMessage(), error.getMessage())));
                             },
                             () -> count.countDown()
-
                     );
                 });
     }
