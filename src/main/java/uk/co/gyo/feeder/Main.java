@@ -7,6 +7,7 @@ import ratpack.server.RatpackServer;
 import ratpack.server.ServerConfig;
 import uk.co.gyo.feeder.handler.RssHandler;
 import uk.co.gyo.feeder.handler.StatusHandler;
+import uk.co.gyo.feeder.handler.TwitterHandler;
 import uk.co.gyo.feeder.module.FeederModule;
 
 /*
@@ -22,6 +23,7 @@ public class Main {
             .handlers(chain -> {
                 chain.get("private/status", StatusHandler.class);
                 chain.post("rss", RssHandler.class);
+                chain.get("twitter/:user", TwitterHandler.class);
             })
         );
     }

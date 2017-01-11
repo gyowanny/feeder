@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import ratpack.handling.Context;
 import ratpack.handling.Handler;
 import uk.co.gyo.feeder.command.RssFeederCommand;
+import uk.co.gyo.feeder.error.Error;
 
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
@@ -62,24 +63,6 @@ public class RssHandler implements Handler {
 
         public String getTitle() {
             return title;
-        }
-    }
-
-    private static class Error {
-        private final String message;
-        private final String cause;
-
-        public Error(String message, String cause) {
-            this.message = message;
-            this.cause = cause;
-        }
-
-        public String getMessage() {
-            return message;
-        }
-
-        public String getCause() {
-            return cause;
         }
     }
 
