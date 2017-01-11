@@ -1,13 +1,13 @@
 # feeder
-RSS Feeder using Ratpack.io and Hystrix
+Twitter timeline and RSS Feeder using Ratpack.io and Hystrix
 
-If you want to load your Twitter's timeline please create a file called twitter4j.properties containing the following properties:
+If you want to load your Twitter's timeline please create a file called **twitter4j.properties** containing the following properties (refer to http://twitter4j.org/en/configuration.html):
 
-debug=true
-oauth.consumerKey=*********************
-oauth.consumerSecret=******************************************
-oauth.accessToken=**************************************************
-oauth.accessTokenSecret=******************************************
+    debug=true
+    oauth.consumerKey=*********************
+    oauth.consumerSecret=******************************************
+    oauth.accessToken=**************************************************
+    oauth.accessTokenSecret=******************************************
 
-PS: The file must be in the classpath like in the resources folder
+*PS: The file must be in the classpath like the resources folder*
 
