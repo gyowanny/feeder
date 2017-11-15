@@ -9,5 +9,5 @@ If you want to load your Twitter's timeline please create a file called **twitte
     oauth.accessToken=**************************************************
     oauth.accessTokenSecret=******************************************
 
-*PS: The file must be in the classpath like the resources folder*
+*PS: The file must be whether in the classpath or src/main/java/resources folder*
 
